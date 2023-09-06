@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS tutorial and selectors</title>
+    <!-- <link rel="stylesheet" href="ayesharao.css"> -->
+    <style>
+     
+     /* element slector */
+     p{
+        border: 2px solid black;
+     }
+
+      /* hash is used to select id. */
+      #firstpara {
+        color: green;
+      }
+
+      /* dot is used to select class. */
+      .sec {
+        color: plum;
+      }
+      .sec2 {
+        background-color: blue;
+      }
+           
+      /* to group style. */
+      footer,
+      span {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>CSS tutorial internal css with selectors</h3>
+
+    <p id="firstpara">
+      this is the tutorial for css and html.this is a simple paragrapgh
+    </p>
+    <p id="redEl" class="sec sec2">
+      this is the tutorial for css and html.this is a simple paragrapgh
+    </p>
+    <div>
+      <p>this is the tutorial for css and html.this is a simple paragrapgh</p>
+      <span>this is a span</span>
+    </div>
+    <br>
+    <footer>this is a footer</footer>
+  </body>
+</html>
